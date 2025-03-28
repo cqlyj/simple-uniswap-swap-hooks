@@ -3,5 +3,8 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-remappings = ["@openzeppelin/uniswap-hooks/=lib/uniswap-hooks/"]
+remappings = [
+    "@openzeppelin/uniswap-hooks/=lib/uniswap-hooks/",
+    "@v4-periphery/=lib/v4-periphery/",
+]
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
